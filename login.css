@@ -1,0 +1,26 @@
+.form_wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_wrapper .signup_form {
+    border: 1px rgb(179, 179, 179) solid;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form_wrapper .signup_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form_wrapper .signup_form h1{
+    margin: 0px;
+}
